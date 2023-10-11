@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 60px 10px 0px 345px ;
+    padding-inline: 50px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 6, 0.6);
+    font-family:sans-serif;
+    display: inline-block;
+    color: purple;
+    background-color: grey;
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+}
+h1:hover{
+    text-transform: capitalize;
+    transform: scale(1.2);
+    cursor: pointer;
+    color: red;
+    opacity: 0.9;
+}
+button{
+    margin: 30vh 100vh;
+    padding: 10px 45px;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: green;
+
+}
